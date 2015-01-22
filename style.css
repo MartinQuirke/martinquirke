@@ -1,14 +1,83 @@
-body {
+/*body {
 	background-color: #000000
-}
-
-/*body{
-	background-color: #FFFFFF
 }*/
 
-h1{
-	color: #ffffff;
+body{
+	/*background-color: #BCBCBC;*/
+	background-color:#424242;
 }
+
+h1{
+	color: #3299bb;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	padding-top:10px;
+	padding-left:50px;
+	
+}
+.header-wrapper{
+	background-color:#BCBCBC;
+	height:75px;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	
+	
+}
+.left-menu{
+	background-color:#424242;
+	position:absolute;
+	width:200px;
+	top:75px;
+	right:0;
+	bottom:0;
+}
+
+.title{
+	color:#3299bb;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.desc{
+	color:#3299bb;
+	width:100px;
+	padding-left:45px;
+	padding-top:0px;
+	text-align:center;
+	font-family: 'roboto', sans-serif;
+	font-style: italic;
+	font-weight: 900;
+	font-size: 12px;
+}
+
+.profile{
+	
+	width: 120px;
+	height: 120px;
+	margin-left:35px;
+	margin-top:30px;
+	/*border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;*/
+	
+	background: url(https://lh3.googleusercontent.com/-XA0kBMF2MuM/AAAAAAAAAAI/AAAAAAAAARc/vdu0zPd3r4A/s120-c/photo.jpg) no-repeat;
+}
+
+.footer-wrapper{
+	background-color:#424242;
+	color:#3299bb;
+	height:75px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+
 
 .image{
 	height:200px;
@@ -21,6 +90,8 @@ h1{
 	cursor: pointer;
 
 }
+
+
 
 .imagespin{
 
@@ -95,12 +166,6 @@ h1{
   }
 }
 
-.rotate90 {
-    -webkit-transform: rotate(135deg);
-    -moz-transform: rotate(135deg);
-    -o-transform: rotate(135deg);
-    -ms-transform: rotate(135deg);
-    transform: rotate(135deg);
-}
+
 
 

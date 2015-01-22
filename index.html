@@ -10,16 +10,36 @@
 		
 		<link rel="stylesheet" href="style.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100italic|Oswald' rel='stylesheet' type='text/css'>
+		
+		<script>
+			window.onload = function() {
+				var date = new Date();
+				document.getElementById('date').innerHTML =  date.getFullYear();
+			};
+		</script>
 		
 	</head>
 
 	<body>
-<head>
-  
-     </head>
-		<h1>Martin uirke</h1>
-		<img src="icon.png" class="rotate90" height="30px" width="30px">
+	<div class="header-wrapper">
+		
+		<h1>Martin Quirke</h1>
+		
+	</div>
 
-
+	<div class="left-menu">
+		<div class="profile"></div>
+		<!--<img src="https://lh3.googleusercontent.com/-XA0kBMF2MuM/AAAAAAAAAAI/AAAAAAAAARc/vdu0zPd3r4A/s120-c/photo.jpg">-->
+		
+		<center class="title">IT Developer</center>
+		<p class="desc">Web Developer using mainly Java and PHP.</p>
+		
+	</div>
+	
+	<div class="footer-wrapper">
+     <center>&#169;  Martin Quirke <font id='date'></font></center>
+	</div>
 	</body>
 </html>
