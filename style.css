@@ -1,3 +1,5 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
 /*body {
 	background-color: #000000
 }*/
@@ -10,11 +12,32 @@ body{
 h1{
 	color: #3299bb;
 	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	padding-top:10px;
 	padding-left:50px;
+	text-decoration:none;
 	
 }
+/* unvisited link */
+h1 a:link {
+    color: #3299bb;
+}
+
+/* visited link */
+h1 a:visited {
+    color: #3299bb;
+}
+
+/* mouse over link */
+h1 a:hover {
+    color: #3299bb;
+}
+
+/* selected link */
+h1 a:active {
+    color: #3299bb;
+}
+
 .header-wrapper{
 	background-color:#BCBCBC;
 	height:75px;
@@ -22,10 +45,75 @@ h1{
 	position:absolute;
 	top:0;
 	left:0;
-	right:0;
-	
+	right:0;	
+}
+
+.navbar{
+	background-color:#FF9900;
+	position:absolute;
+	height:50px;
+	top:75px;
+	right:200px;
+	left:30%;
+	font-family: 'Alegreya Sans SC', sans-serif;
 	
 }
+
+.playground{
+	color:#FF9900;
+	font-size: 20px;
+	position:absolute;
+	width:150px;
+	height:50x;
+	left:300px;
+	text-align:center;
+	background-color:#424242;	
+}
+
+.playground:hover{
+	color:#3299bb;	
+	background-color:#BCBCBC;	
+}
+
+.cv{
+	color:#FF9900;
+	font-size: 20px;
+	position:absolute;
+	width:150px;
+	height:50x;
+	left:150px;
+	text-align:center;
+	background-color:#424242;	
+}
+
+.cv:hover{
+	color:#3299bb;	
+	background-color:#BCBCBC;	
+}
+
+.about{
+	color:#FF9900;
+	font-size: 20px;
+	position:absolute;
+	width:150px;
+	height:50x;
+	left:0px;
+	text-align:center;
+	background-color:#424242;	
+}
+
+.about:hover{
+	color:#3299bb;	
+	background-color:#BCBCBC;	
+}
+
+
+.nav-text{
+	top:50%;
+}
+
+
+
 .left-menu{
 	background-color:#424242;
 	position:absolute;
@@ -59,9 +147,9 @@ h1{
 	height: 120px;
 	margin-left:35px;
 	margin-top:30px;
-	/*border-radius: 60px;
+	border-radius: 60px;
 	-webkit-border-radius: 60px;
-	-moz-border-radius: 60px;*/
+	-moz-border-radius: 60px;
 	
 	background: url(https://lh3.googleusercontent.com/-XA0kBMF2MuM/AAAAAAAAAAI/AAAAAAAAARc/vdu0zPd3r4A/s120-c/photo.jpg) no-repeat;
 }
@@ -75,6 +163,20 @@ h1{
 	bottom:0;
 	left:0;
 	right:0;
+}
+
+
+/*entypo*/ 
+[class*="entypo-"]:before {
+	color:#3299bb;
+	display: inline-block;
+	width: 30px;
+	height: 50px;
+	line-height: 50px;
+	font-family: 'entypo', sans-serif;
+	font-size: 28px;
+	text-align: center;
+  
 }
 
 
