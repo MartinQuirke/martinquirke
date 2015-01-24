@@ -9,46 +9,42 @@
 		<meta name="author" content="SitePoint">
 		
 		<link rel="stylesheet" href="style.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!--Fonts used from Google-->
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100italic|Oswald|Alegreya+Sans+SC:800' rel='stylesheet' type='text/css'>' rel='stylesheet' type='text/css'>
-		<style type="text/css">
-			@import url(http://weloveiconfonts.com/api/?family=zocial);
-		</style>
-		
-		
+		<!--Script to get the current year, used for copyright at bottom-->
 		<script>
 			window.onload = function() {
 				var date = new Date();
 				document.getElementById('date').innerHTML =  date.getFullYear();
 			};
 		</script>
-		
 	</head>
 
 	<body>
-	<div class="header-wrapper">
-		
+	<div id="header-wrapper">		
 		<h1><a href="index.html" style="text-decoration: none">Martin Quirke</a></h1>
-		
 	</div>
 	
-	<div class="navbar">
-		
-		<span class="about"><p class="nav-text">About</p></span>
-		<span class="cv"><p class="nav-text">My C.V</p></span>
-		<span class="playground"><p class="nav-text">Playground</p></span>
-		
-		
-		
+	<div id="navbar">
+		<ul>
+			<center>
+				<li><center><a href="" >About Me</a></center></li>
+				<li><center><a href="" >My C.V</a></center></li>
+				<li><center><a href="" >Playground</a></center></li>
+			</center>			
+		</ul>
 	</div>
 
-	<div class="left-menu">
-		<div class="profile"></div>
-		<center class="title">IT Developer</center>
-		<p class="desc">Web Developer with experience in Java and PHP.</p>
+	<div id="left-menu">
+		<div id="profile"></div>
+		<center id="title">IT Developer</center>
+		<p id="desc">Web Developer with experience in Java and PHP.</p>
 		<div>
 			<center>
+				<!-- WeLoveIcons.com for the social images-->
 				<span class="entypo-gplus"></span>
 				<span class="entypo-twitter"></span>
 				<span class="entypo-linkedin"></span>
@@ -57,10 +53,7 @@
 		</div>
 	</div>
 	
-	
-
-	
-	<div class="footer-wrapper">
+	<div id="footer-wrapper">
      <center>&#169;  Martin Quirke <font id='date'></font></center>
 	</div>
 	</body>
